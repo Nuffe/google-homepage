@@ -1,0 +1,40 @@
+
+
+
+
+#navlist{
+    background-color: white;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.navbar .navlist ul {
+    
+}
+
+
+.navbar .navlist li {
+position: relative;
+padding: 0px 2px 0px 0px;
+float:right;
+right: 30px;
+}
+
+ .navbar .navlist li a {
+    display:block;   
+    color:black; 
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 13px;;
+}
+    
+
+.navbar ul li a:hover {
+text-decoration: underline;
+}
+
+ img {
+     position: relative;
+     top: 200px;
+ }
