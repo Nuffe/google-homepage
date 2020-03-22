@@ -54,9 +54,23 @@ top: 6px;
 .navbar .navlist .links:hover 
 {
 opacity: 1;
-
 }
-
+ .navbar .navlist .signlink {
+  display: inline-block;
+  cursor: default;
+  text-decoration: none;
+  background-color: #4285f4;
+  margin: 7px 0 0 10px;
+  padding: 0px 15px;
+  line-height: 28px;
+  border-radius: 2px;
+  border: 1px;
+  color: white;
+  font-weight: bold;
+ }
+ .navbar .navlist .signlink:hover {
+opacity: 1;
+ }
 img {
  position: relative;
  display:block;
@@ -76,6 +90,28 @@ display:block;
   width:400px;
   height:30px;
 }
+.div2{
+  position: relative;
+  margin: auto;
+  width: 500px;
+  top: 170px;
+  padding: 10px;
+  left: 89px;
+
+}
+.enter {
+  display:inline-block;
+  background-color:gray;
+  width:150px;
+  height:40px;
+  text-align: center;
+  line-height: 39px;
+}
+.luck {
+  padding:0 0 0 5px;
+}
+
+
 .footer {
 overflow:hidden;
 }
@@ -103,3 +139,4 @@ opacity: .60;
 .footer .footerlist .right {
 float:right;
 }
+
