@@ -2,9 +2,6 @@
 
 
 
-
-
-
 #navlist{
   background-color: white;
   margin:0;
@@ -81,15 +78,46 @@ img {
    }
 
 #search {
-position:center;
-position: relative;
-display:block;
-  margin-left:auto;
-  margin-right:auto;
-  top:160px;
-  width:400px;
-  height:30px;
+  position: relative;
+  display: block;
+  top: -7px;
+  left: 36px;
+  width: 506px;
+  height: 37px;
+  border: none;
+  background-color: transparent;
+  font-size: 19px;
 }
+#search:focus {
+outline:none;
+}
+#sd1 {
+  border: 1px solid lightgray;
+  position: relative;
+  margin: auto;
+  width: 582px;
+    height: 26px;
+  top: 161px;
+  padding: 10px;
+  left: 9px;
+  border-radius: 24px;
+}
+#sd1:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+#looking {
+  top: -33px;
+  width: 16px;
+  right: 274px;
+  opacity:.7;
+}
+#mic {
+  width: 15px;
+    top: -53px;
+    left: 268px;
+}
+
 .div2{
   position: relative;
   margin: auto;
@@ -143,9 +171,12 @@ overflow:hidden;
 }
 
 .footer .footerlist {
-  width:100%;
+  width: 100%;
   position: absolute;
-  bottom:0px;
+  bottom: 0px;
+  color: rgba(0,0,0,.54);
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
 }
 
 .footer .footerlist a {
